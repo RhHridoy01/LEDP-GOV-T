@@ -1,0 +1,13 @@
+.background{
+	padding: 120px;
+	background: url(img/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	font-family: tahoma;
+	font-style: italic;
+	font-size: 30px;
+	background-attachment: fixed;
+	background-blend-mode: lighten;
+
+}

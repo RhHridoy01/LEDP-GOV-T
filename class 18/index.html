@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter Up</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <script src="https://kit.fontawesome.com/a0fdf07411.js" crossorigin="anonymous"></script>
+    <style>
+        .bg-1{background: #149eb8;}
+        .bg-2{background: #17AAC4;}
+        .bg-3{background: #16B2CE;}
+        .bg-4{background: #19bdd9;}
+        .counter p{font-family: 'Raleway', sans-serif;font-weight:100;font-size:60px;}
+        .counter h5{font-family: 'Raleway', sans-serif; font-weight: 700;font-size: 18px;}
+
+        .hero-section{
+            background: url(img/vg.jpg);
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            padding: 230px 0px;
+            position: relative;
+            overflow: hidden;
+        }
+        .overlay{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,.7);
+            top: 0;
+            left:0;
+        }
+    </style>
+</head>
+<body>
+    <section class="hero-section">
+        <div class="overlay text-center text-white d-flex align-item-center justify-content-center flex-column">
+            <h5 class="display-4 font-weight-bold">Responsive Design</h5>
+            <h1 class="display-2 font-weight-bold">for IT Services</h1>
+        </div>
+
+    </section>
+    <section class="counterup-area">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 bg-1 p-4">
+                    <div class="counter text-center text-white">
+                        <i style="font-size: 2em" class="fas fa-thumbs-up"></i>
+                        <p class="count">101</p>
+                        <h5>Complete Project</h5>
+                    </div>
+                </div>
+                <div class="col-md-3 bg-2 p-4">
+                    <div class="counter text-center text-white">
+                        <i style="font-size: 2em" class="fas fa-male"></i>
+                        <p class="count">7,782</p>
+                        <h5>Happy Customer</h5>
+                    </div>
+                </div>
+                <div class="col-md-3 bg-3 p-4">
+                    <div class="counter text-center text-white">
+                        <i style="font-size: 2em;" class="fas fa-tachometer-alt"></i>
+                        <p class="count">1,580</p>
+                        <h5>Lines per Hour</h5>
+                    </div>
+                </div>
+                <div class="col-md-3 bg-4 p-4">
+                    <div class="counter text-center text-white">
+                        <i style="font-size:2em;"class="fas fa-mug-hot"></i>
+                        <p class="count">80</p>
+                        <h5>Coffee Cups</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script>
+    $('.count').counterUp({
+    delay: 10,
+    time: 1000
+});
+</script>
+</body>
+</html>

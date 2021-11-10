@@ -1,0 +1,53 @@
+body{
+    background-color:darkgrey;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5%;
+
+}
+.containe{
+    width: 1000px;
+    background: #E4F9F5 ;
+    margin: 0 auto;
+    padding: 20px;
+}
+.navbar{
+    margin-top: 25px;
+}
+.content{
+    text-justify: auto;
+    text-align: center;
+    color: deepskyblue;
+   margin-top: 35px;
+
+}
+#headphone{
+    text-align: center;
+    background-color:indianred ;
+    margin-top: 20px;
+
+}
+h1{
+    color: wheat;
+    text-align: center;
+}
+.carousel-item{
+    padding: 5% 5%;
+
+}
+
+}
+.icon-bar{
+    padding: 15% 10%;
+    margin-top: 20px;
+    text-align-last: center;
+}
+.study-icon{
+    color: brown;
+}
+.study-icon:hover{
+    color: rgb(80, 65, 134);
+}
+.breadcrumb{
+    background: transparent;
+    padding-left: 0%;
+}

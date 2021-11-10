@@ -1,0 +1,28 @@
+div{
+	padding: 50px 20px;
+	border: 1px solid;
+	margin: 20px;
+	width: 15%;
+	float: left;
+	text-align: center;
+	background: #D8E6F2;
+}
+div i{
+	font-size: 50px;
+	color: #fff;
+}
+.fab.fa-whatsapp{
+	color: green;
+}
+.fab.fa-facebook{
+	color: blue;
+}
+.fab.fa-twitter{
+	color: lightblue;
+}
+.fab.fa-linkedin-in{
+	color:darkblue;
+}
+div:hover{
+	background: #333;
+}
